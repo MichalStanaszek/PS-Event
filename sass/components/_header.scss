@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: $brand-text-color;
+  background-color: $brand-bg-color;
+}
+
+.page-navigation {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  .header {
+    max-width: 1600px;
+    justify-content: space-around;
+  }
+
+  .page-navigation {
+    display: flex;
+
+    list-style-type: none;
+    line-height: 1.14rem;
+    padding-left: 25px;
+
+    &--transform {
+      padding: 10px;
+    }
+  }
+}

@@ -1,1 +1,118 @@
-/*# sourceMappingURL=main.css.map */
+.header {
+  display: flex;
+  align-items: center;
+  color: #4e3300;
+  background-color: #000000;
+}
+
+.page-navigation {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  .header {
+    max-width: 1600px;
+    justify-content: space-around;
+  }
+  .page-navigation {
+    display: flex;
+    list-style-type: none;
+    line-height: 1.14rem;
+    padding-left: 25px;
+  }
+  .page-navigation--transform {
+    padding: 10px;
+  }
+}
+.mobile__button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  fill: #ebb222;
+  color: #ebb222;
+  font-size: 25px;
+}
+
+.mobile-menu {
+  padding: 48px 40px;
+  margin: 0;
+  list-style-type: none;
+}
+.mobile-menu--list:not(:nth-child(1)) {
+  padding-top: 32px;
+}
+
+.mobile-social {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 500;
+  font-size: 1.286em;
+  color: #ebb222;
+  list-style-type: none;
+  padding-left: 0;
+}
+.mobile-social--decoration {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 0 10px;
+}
+.mobile-social--decoration:first-child {
+  padding-left: 0;
+}
+.mobile-social--decoration:last-child {
+  border: none;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  transform: translateX(1000%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 481px) {
+  .mobile__button {
+    display: none;
+  }
+}
+body {
+  min-width: 320px;
+  max-width: 480px;
+  color: #ebb222;
+  font-family: "Bellefair";
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    min-width: 481px;
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 769px) {
+  body {
+    min-width: 769px;
+    max-width: 1600px;
+  }
+}/*# sourceMappingURL=main.css.map */

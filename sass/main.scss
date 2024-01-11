@@ -1,0 +1,34 @@
+@import "utils/vars";
+@import "components/header";
+@import "components/mobile-window";
+
+body {
+  min-width: 320px;
+  max-width: 480px;
+  color: $brand-color;
+  font-family: $font-primary;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+//TABLET
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    min-width: 481px;
+    max-width: 768px;
+  }
+}
+
+//DESKTOP
+@media screen and (min-width: 769px) {
+  body {
+    min-width: 769px;
+    max-width: 1600px;
+  }
+}
