@@ -3,6 +3,7 @@
   align-items: center;
   color: #4e3300;
   background-color: #000000;
+  border-bottom: 1px solid #4e3300;
 }
 
 .page-navigation {
@@ -93,6 +94,7 @@ body {
   min-width: 320px;
   max-width: 480px;
   color: #ebb222;
+  background-color: #000000;
   font-family: "Bellefair";
   margin: 0 auto;
   overflow-x: hidden;
