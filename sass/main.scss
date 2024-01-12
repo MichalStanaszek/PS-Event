@@ -1,11 +1,13 @@
 @import "utils/vars";
 @import "components/header";
 @import "components/mobile-window";
+@import "components/redirect";
 
 body {
   min-width: 320px;
   max-width: 480px;
   color: $brand-color;
+  background-color: $brand-bg-color;
   font-family: $font-primary;
   margin: 0 auto;
   overflow-x: hidden;
@@ -15,6 +17,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 //TABLET

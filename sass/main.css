@@ -90,6 +90,17 @@
     display: none;
   }
 }
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #4e3300;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
 body {
   min-width: 320px;
   max-width: 480px;
@@ -104,6 +115,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
