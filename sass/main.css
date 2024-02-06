@@ -101,6 +101,19 @@
   font-size: 30px;
 }
 
+.about {
+  background-color: #ffffff;
+  margin: 0px 15px 20px;
+}
+.about__header {
+  text-align: center;
+}
+.about__paragraph {
+  padding: 10px;
+  color: black;
+  font-size: 1.1em;
+}
+
 body {
   min-width: 320px;
   max-width: 480px;
