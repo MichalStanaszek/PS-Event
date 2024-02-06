@@ -1,0 +1,12 @@
+.about {
+  background-color: #ffffff;
+  margin: 0px 15px 20px;
+  &__header {
+    text-align: center;
+  }
+  &__paragraph {
+    padding: 10px;
+    color: black;
+    font-size: 1.1em;
+  }
+}
