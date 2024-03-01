@@ -1,5 +1,4 @@
 .about {
-  background-color: #ffffff;
   margin: 0px 15px 20px;
   &__header {
     text-align: center;
@@ -10,5 +9,9 @@
     font-size: 1.2em;
     background-color: black;
     color: $brand-color;
+  }
+  &__photo {
+    overflow: hidden;
+    border-radius: 10%;
   }
 }
