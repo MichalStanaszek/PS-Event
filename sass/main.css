@@ -136,6 +136,9 @@
   align-items: center;
   justify-content: space-around;
 }
+.footer__svg {
+  margin: 10px 8px 50px;
+}
 
 body {
   min-width: 320px;
