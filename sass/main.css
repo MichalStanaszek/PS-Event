@@ -1,9 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  color: #4e3300;
+  color: #ebb222;
   background-color: #000000;
   border-bottom: 1px solid #4e3300;
+}
+.header__logo {
+  width: 80px;
 }
 
 .page-navigation {
@@ -15,14 +18,25 @@
     max-width: 1600px;
     justify-content: space-around;
   }
+  .header__logo {
+    width: 140px;
+  }
   .page-navigation {
     display: flex;
     list-style-type: none;
     line-height: 1.14rem;
-    padding-left: 25px;
   }
   .page-navigation--transform {
     padding: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    max-width: 1600px;
+    justify-content: space-around;
+  }
+  .header__logo {
+    width: 200px;
   }
 }
 .mobile__button {

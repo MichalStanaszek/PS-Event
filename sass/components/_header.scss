@@ -1,9 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  color: $brand-text-color;
+  color: $brand-color;
   background-color: $brand-bg-color;
   border-bottom: 1px solid $brand-text-color;
+  &__logo {
+    width: 80px;
+  }
 }
 
 .page-navigation {
@@ -14,17 +17,27 @@
   .header {
     max-width: 1600px;
     justify-content: space-around;
+    &__logo {
+      width: 140px;
+    }
   }
 
   .page-navigation {
     display: flex;
-
     list-style-type: none;
     line-height: 1.14rem;
-    padding-left: 25px;
-
     &--transform {
       padding: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    max-width: 1600px;
+    justify-content: space-around;
+    &__logo {
+      width: 200px;
     }
   }
 }
