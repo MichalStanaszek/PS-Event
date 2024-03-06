@@ -13,7 +13,7 @@
   display: none;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .header {
     justify-content: space-around;
     font-size: 24px;
@@ -103,7 +103,7 @@
   transform: translateX(0);
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .mobile__button {
     display: none;
   }
@@ -119,6 +119,12 @@
   font-size: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .test {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .about {
   margin: 0px 15px 20px;
 }
