@@ -15,8 +15,8 @@
 
 @media screen and (min-width: 481px) {
   .header {
-    max-width: 1600px;
     justify-content: space-around;
+    font-size: 24px;
     &__logo {
       width: 140px;
     }
@@ -34,10 +34,16 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    max-width: 1600px;
     justify-content: space-around;
+    font-size: 32px;
     &__logo {
       width: 200px;
+    }
+  }
+
+  .page-navigation {
+    &--transform {
+      padding: 10px 25px;
     }
   }
 }
