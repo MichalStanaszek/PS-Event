@@ -6,8 +6,6 @@
 @import "components/footer";
 
 body {
-  min-width: 320px;
-  max-width: 480px;
   color: $brand-color;
   background-color: $brand-bg-color;
   font-family: $font-primary;
@@ -35,20 +33,4 @@ ul {
 
 li {
   list-style-type: none;
-}
-
-//TABLET
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  body {
-    min-width: 481px;
-    max-width: 768px;
-  }
-}
-
-//DESKTOP
-@media screen and (min-width: 769px) {
-  body {
-    min-width: 769px;
-    max-width: 1600px;
-  }
 }
