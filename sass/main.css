@@ -111,18 +111,32 @@
 .button {
   display: block;
   margin: 20px auto;
-  padding: 40px;
+  padding: 20px;
   background-color: #4e3300;
   color: white;
   border: none;
-  border-radius: 30px;
-  font-size: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media screen and (min-width: 768px) {
-  .test {
-    display: flex;
-    justify-content: space-evenly;
+  .button {
+    padding: 50px;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button {
+    padding: 70px;
+    font-size: 60px;
+  }
+  .navigation-buttons {
+    margin: 250px 0px;
   }
 }
 .about {
