@@ -11,7 +11,41 @@
     color: $brand-color;
   }
   &__photo {
-    overflow: hidden;
     border-radius: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    margin: 0px 25px 40px;
+    &__header {
+      font-size: 2em;
+    }
+    &__paragraph {
+      font-size: 1.6em;
+      padding: 20px 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    display: flex;
+    gap: 150px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 4px;
+    &__photo {
+      max-width: 450px;
+    }
+    &__paragraph {
+      padding: 0px;
+      font-size: 28px;
+    }
+  }
+
+  li:nth-child(even) .about {
+    flex-direction: row-reverse;
   }
 }
