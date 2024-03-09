@@ -522,10 +522,22 @@ img {
   height: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
 a:visited {
+  color: #ebb222;
+}
+a:-webkit-any-link {
   color: #ebb222;
 }
 
