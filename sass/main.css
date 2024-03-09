@@ -400,10 +400,8 @@
 }
 .about__paragraph {
   padding: 10px;
-  color: black;
   font-size: 1.2em;
-  background-color: black;
-  color: #ebb222;
+  line-height: 1.3em;
 }
 .about__photo {
   border-radius: 10%;
@@ -435,7 +433,7 @@
   }
   .about__paragraph {
     padding: 0px;
-    font-size: 28px;
+    font-size: 1.75em;
   }
   li:nth-child(even) .about {
     flex-direction: row-reverse;

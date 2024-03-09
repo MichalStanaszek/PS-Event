@@ -5,10 +5,8 @@
   }
   &__paragraph {
     padding: 10px;
-    color: black;
     font-size: 1.2em;
-    background-color: black;
-    color: $brand-color;
+    line-height: 1.3em;
   }
   &__photo {
     border-radius: 10%;
@@ -41,7 +39,7 @@
     }
     &__paragraph {
       padding: 0px;
-      font-size: 28px;
+      font-size: 1.75em;
     }
   }
 
