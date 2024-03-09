@@ -140,7 +140,7 @@
   }
 }
 .about {
-  margin: 0px 15px 20px;
+  margin: 35px;
 }
 .about__header {
   text-align: center;
@@ -158,7 +158,7 @@
 
 @media screen and (min-width: 768px) {
   .about {
-    margin: 0px 25px 40px;
+    margin: 70px;
   }
   .about__header {
     font-size: 2em;

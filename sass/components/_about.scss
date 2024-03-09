@@ -1,5 +1,5 @@
 .about {
-  margin: 0px 15px 20px;
+  margin: 35px;
   &__header {
     text-align: center;
   }
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 768px) {
   .about {
-    margin: 0px 25px 40px;
+    margin: 70px;
     &__header {
       font-size: 2em;
     }
