@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PS.Event - Oferta biznesowa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="./index.html">
+          <img class="header__logo" src="./images/logo.jpg" alt="PS logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="page-navigation">
+          <li class="page-navigation--transform">
+            <a href="./private-events.html">Oferta ślubna</a>
+          </li>
+          <li class="page-navigation--transform">
+            <a href="./company-events.html">Wydarzenia firmowe</a>
+          </li>
+          <li class="page-navigation--transform">Kontakt</li>
+        </ul>
+      </nav>
+      <button
+        class="mobile__button js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        type="button"
+      >
+        <svg width="44px" height="44px">
+          <use href="./images/icons/icons.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="mobile__button js-close-menu">&#10006;</button>
+        <div>
+          <ul class="mobile-menu">
+            <li class="mobile-menu--list">
+              <a href="./private-events.html">Oferta ślubna</a>
+            </li>
+            <li class="mobile-menu--list">Uroczystości</li>
+            <li class="mobile-menu--list">Kontakt</li>
+          </ul>
+          <ul class="mobile-social">
+            <li class="mobile-social--decoration">
+              <a
+                href="https://www.instagram.com/_ps_event?fbclid=IwAR3Bfb_8CiO-72JZjO3WXYSRoMOipiaXpWwI2QWg_AtsV3z2DDxB_nspHCg"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-social--decoration">
+              <a
+                href="https://www.facebook.com/profile.php?id=61555475559094&locale=pl_PL"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-social--decoration">
+              <a href="Pinterest" target="_blank"></a>Pinterest
+            </li>
+            <li class="mobile-social--decoration">
+              <a
+                href="https://www.tiktok.com/@ps_event?fbclid=IwAR2t3jaPt-zGA1mMd2sHSjamYiDADl9QERjOKKxnmd6Pn98ou9i8nUiQ6WM"
+                target="_blank"
+                >TikTok</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+      ></script>
+      <script defer src="js/mobile-menu.js"></script>
+    </header>
+    <main>
+      <article>
+        <p>oferta biznesowa</p>
+      </article>
+    </main>
+    <footer class="footer">
+      <a class="footer--logo" href="./index.html">
+        <img src="./images/logo.jpg" alt="PS logo" />
+      </a>
+      <div class="footer--desktop">
+        <div class="footer--tablet">
+          <h3 class="footer__header">Skontaktuj się z nami</h3>
+          <p>PS Event: Ornontowice 43-178</p>
+          <address class="footer__contact">
+            <a class="footer__contact--accent" href="mailto:kontakt@psevent.net"
+              >kontakt@psevent.net</a
+            >
+          </address>
+          <address class="footer__contact">
+            <a class="footer__contact--accent" href="tel:+48 514 353 127"
+              >+48 514 353 127</a
+            >
+          </address>
+        </div>
+        <div class="footer__icons">
+          <svg class="footer__svg">
+            <a
+              href="https://www.facebook.com/profile.php?id=61555475559094&locale=pl_PL"
+              target="_blank"
+            >
+              <use href="./images/Icons/icons.svg#icon-facebook"></use>
+            </a>
+          </svg>
+          <svg class="footer__svg">
+            <a
+              href="https://www.instagram.com/_ps_event?fbclid=IwAR3Bfb_8CiO-72JZjO3WXYSRoMOipiaXpWwI2QWg_AtsV3z2DDxB_nspHCg"
+              target="_blank"
+            >
+              <use href="./images/Icons/icons.svg#icon-instagram"></use>
+            </a>
+          </svg>
+          <svg class="footer__svg">
+            <a
+              href="https://www.tiktok.com/@ps_event?fbclid=IwAR2t3jaPt-zGA1mMd2sHSjamYiDADl9QERjOKKxnmd6Pn98ou9i8nUiQ6WM"
+              target="_blank"
+            >
+              <use href="./images/Icons/icons.svg#icon-tiktok"></use>
+            </a>
+          </svg>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
