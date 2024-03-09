@@ -100,28 +100,30 @@
       <script defer src="js/mobile-menu.js"></script>
     </header>
     <main>
-      <form>
-        <label>
+      <form class="form">
+        <p>
+          Zachęcamy do kontaktu z nami! Wypełnij poniższy formularz kontaktowy,
+          podając szczegóły dotyczące planowanego wydarzenia, a my skontaktujemy
+          się z Tobą, aby omówić wszystkie detale. Razem stworzymy coś
+          wyjątkowego!
+        </p>
+        <label class="form__label">
           Adres email
-          <input type="email" name="email" />
+          <input class="form__input" type="email" name="email" />
         </label>
-        <label>
+        <label class="form__label">
           Wasze imiona
-          <input type="text" name="username" />
+          <input class="form__input" type="text" name="username" />
         </label>
-        <label>
+        <label class="form__label">
           Telefon kontaktowy
-          <input type="tel" name="phone_number" />
+          <input class="form__input" type="tel" name="phone_number" />
         </label>
-        <label>
+        <label class="form__label">
           Treść wiadomości
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Enter your message here..."
-          ></textarea>
+          <textarea class="form__input" name="message" rows="15"></textarea>
         </label>
-        <button type="submit">Submit</button>
+        <button class="form__button" type="submit">Wyślij formularz</button>
       </form>
     </main>
     <footer class="footer">
