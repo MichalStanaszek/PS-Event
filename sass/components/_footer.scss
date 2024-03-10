@@ -7,15 +7,34 @@
   text-align: center;
   &--logo {
     width: 250px;
+    img {
+      transition: transform 0.5s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
   }
   &__header {
     font-size: 1.6rem;
     margin: 0px 0px 15px 0px;
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      text-decoration: underline;
+    }
   }
   &__contact {
     padding-bottom: 10px;
     &--accent {
       color: $brand-color;
+    }
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      text-decoration: underline;
     }
   }
   &__icons {
@@ -27,6 +46,11 @@
     margin: 10px 8px 50px;
     width: 38px;
     height: 38px;
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
 }
 
