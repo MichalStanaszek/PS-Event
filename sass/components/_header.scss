@@ -28,6 +28,15 @@
     line-height: 1.14rem;
     &--transform {
       padding: 10px;
+      transition: transform 0.5s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        text-decoration: underline;
+      }
+    }
+    &__active {
+      text-decoration: underline;
     }
   }
 }
@@ -39,6 +48,13 @@
     padding: 0px 40px;
     &__logo {
       width: 200px;
+      &--transform {
+        transition: transform 0.5s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
     }
   }
 

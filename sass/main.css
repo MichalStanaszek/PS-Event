@@ -28,6 +28,14 @@
   }
   .page-navigation--transform {
     padding: 10px;
+    transition: transform 0.5s ease;
+  }
+  .page-navigation--transform:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+  }
+  .page-navigation__active {
+    text-decoration: underline;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -38,6 +46,12 @@
   }
   .header__logo {
     width: 200px;
+  }
+  .header__logo--transform {
+    transition: transform 0.5s ease;
+  }
+  .header__logo--transform:hover {
+    transform: scale(1.1);
   }
   .page-navigation--transform {
     padding: 10px 25px;
