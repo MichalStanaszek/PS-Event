@@ -1,7 +1,10 @@
 .about {
-  margin: 35px;
+  margin: 35px 35px 0px;
   &__header {
     text-align: center;
+  }
+  &--list {
+    margin: 0px;
   }
   &__paragraph {
     padding: 10px;

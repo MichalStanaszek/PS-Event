@@ -408,10 +408,13 @@
   }
 }
 .about {
-  margin: 35px;
+  margin: 35px 35px 0px;
 }
 .about__header {
   text-align: center;
+}
+.about--list {
+  margin: 0px;
 }
 .about__paragraph {
   padding: 10px;
