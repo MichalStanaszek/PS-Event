@@ -463,7 +463,8 @@
   text-align: center;
 }
 .footer--logo {
-  width: 250px;
+  width: 200px;
+  padding: 15px;
 }
 .footer--logo img {
   transition: transform 0.5s ease;
@@ -518,7 +519,7 @@
   }
   .footer--logo {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
   }
   .footer__header {
     font-size: 1.8rem;
