@@ -126,6 +126,8 @@
 .navigation-buttons {
   margin: 50px auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -597,7 +599,7 @@
 body {
   color: #ebb222;
   background-color: #000000;
-  font-family: "Bellefair";
+  font-family: "Gistesy";
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -629,6 +631,7 @@ a:-webkit-any-link {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 li {
