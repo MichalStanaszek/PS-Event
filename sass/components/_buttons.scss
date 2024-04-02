@@ -1,6 +1,15 @@
+.hero {
+  background-image: url("../../images/room2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px;
+}
+
 .navigation-buttons {
-  margin: 50px auto;
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -258,16 +267,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .navigation-buttons {
-    margin: 100px 0px;
+  .hero {
+    height: 600px;
   }
   .btn span:before {
     border: 5px solid $brand-color;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navigation-buttons {
-    margin: 155px 0px;
   }
 }
