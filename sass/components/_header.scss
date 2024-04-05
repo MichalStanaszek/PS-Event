@@ -14,12 +14,49 @@
   display: none;
 }
 
+//zostawiam zakomentowane do dyskusji z klientem
 @media screen and (min-width: 768px) {
   .header {
-    justify-content: space-around;
-    font-size: 24px;
+    // justify-content: space-around;
+    // font-size: 24px;
     &__logo {
       width: 140px;
+    }
+  }
+
+  // .page-navigation {
+  //   display: flex;
+  //   list-style-type: none;
+  //   line-height: 1.14rem;
+  //   &--transform {
+  //     padding: 10px;
+  //     transition: transform 0.5s ease;
+
+  //     &:hover {
+  //       transform: scale(1.05);
+  //       text-decoration: underline;
+  //     }
+  //   }
+  //   &__active {
+  //     text-decoration: underline;
+  //   }
+  // }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    justify-content: space-between;
+    font-size: 28px;
+    padding: 0px 40px;
+    &__logo {
+      width: 150px;
+      &--transform {
+        transition: transform 0.5s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
     }
   }
 
@@ -38,24 +75,6 @@
     }
     &__active {
       text-decoration: underline;
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .header {
-    justify-content: space-between;
-    font-size: 32px;
-    padding: 0px 40px;
-    &__logo {
-      width: 150px;
-      &--transform {
-        transition: transform 0.5s ease;
-
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
     }
   }
 
