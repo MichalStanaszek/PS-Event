@@ -3,11 +3,20 @@
   align-items: center;
   color: #ebb222;
   background-color: #000000;
-  border-bottom: 1px solid #4e3300;
+  border-bottom: 1px solid #4e3300; /* For Safari */
+  position: sticky;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 1000;
 }
 .header__logo {
   width: 90px;
   padding: 10px;
+  transition: width 0.5s ease;
+}
+
+.header--scrolled .header__logo {
+  width: 70px;
 }
 
 .page-navigation {
@@ -17,6 +26,9 @@
 @media screen and (min-width: 768px) {
   .header__logo {
     width: 140px;
+  }
+  .header--scrolled .header__logo {
+    width: 90px;
   }
 }
 @media screen and (min-width: 1200px) {
