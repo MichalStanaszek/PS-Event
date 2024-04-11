@@ -1,13 +1,18 @@
 .article {
   margin: 0 20px;
-  font-size: 1.2em;
-  line-height: 1.3em;
+  font-size: 1.3em;
+  line-height: 1.4em;
   &__photo {
-    margin: 0 auto;
+    margin: 0 auto 70px;
     max-width: 90%;
   }
   &__section {
     margin-bottom: 30px;
+  }
+  &__paragraph {
+    margin: 0 auto 20px;
+    max-width: 80vw;
+    text-align: center;
   }
 }
 

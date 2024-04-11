@@ -564,15 +564,20 @@
 }
 .article {
   margin: 0 20px;
-  font-size: 1.2em;
-  line-height: 1.3em;
+  font-size: 1.3em;
+  line-height: 1.4em;
 }
 .article__photo {
-  margin: 0 auto;
+  margin: 0 auto 70px;
   max-width: 90%;
 }
 .article__section {
   margin-bottom: 30px;
+}
+.article__paragraph {
+  margin: 0 auto 20px;
+  max-width: 80vw;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
