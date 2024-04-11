@@ -1,0 +1,7 @@
+.celebrations > :not(:first-child) {
+  margin: 0 auto;
+  max-width: 80vw;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+}

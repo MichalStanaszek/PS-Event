@@ -763,6 +763,14 @@
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
 }
+.celebrations > :not(:first-child) {
+  margin: 0 auto;
+  max-width: 80vw;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+}
+
 body {
   color: #ebb222;
   background-color: #000000;
