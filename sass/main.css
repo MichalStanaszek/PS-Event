@@ -507,6 +507,9 @@
   transform: scale(1.05);
   text-decoration: underline;
 }
+.footer__address {
+  margin: 0 0 15px;
+}
 .footer__icons {
   display: flex;
   align-items: center;
@@ -548,6 +551,9 @@
   .footer--desktop {
     display: flex;
     align-items: baseline;
+  }
+  .footer__address {
+    margin: 0 0 35px;
   }
   .footer__icons {
     flex-direction: column;
