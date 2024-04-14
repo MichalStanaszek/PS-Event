@@ -498,9 +498,6 @@
   padding-bottom: 10px;
   transition: transform 0.5s ease;
 }
-.footer__contact--accent {
-  color: #ebb222;
-}
 .footer__contact:hover {
   transform: scale(1.05);
   text-decoration: underline;

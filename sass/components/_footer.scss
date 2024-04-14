@@ -28,9 +28,6 @@
   }
   &__contact {
     padding-bottom: 10px;
-    &--accent {
-      color: $brand-color;
-    }
     transition: transform 0.5s ease;
 
     &:hover {
