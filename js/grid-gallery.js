@@ -92,21 +92,3 @@ function gridGallery(options) {
   if (options.columnWidth)
     selector.style.setProperty("--column-width", options.columnWidth + "px");
 }
-
-gridGallery({
-  selector: "#square-dark",
-  darkMode: true,
-  layout: "square",
-  gapLength: 4,
-  rowHeight: 180,
-  columnWidth: 200,
-});
-
-gridGallery({
-  selector: "#horizontal-dark",
-  darkMode: true,
-  layout: "horizontal",
-  gapLength: 10,
-  rowHeight: 150,
-  columnWidth: 190,
-});
