@@ -1,3 +1,23 @@
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $brand-bg-color;
+  z-index: 999;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  transform: translateX(1000%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
 .mobile__button {
   position: absolute;
   top: 15px;
@@ -9,10 +29,16 @@
   font-size: 25px;
 }
 
+.mobile-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
 .mobile-menu {
-  padding: 48px 40px;
-  margin: 0;
-  list-style-type: none;
+  padding-top: 48px;
+  font-size: 1.4em;
   &--list:not(:nth-child(1)) {
     padding-top: 32px;
   }
@@ -20,45 +46,35 @@
 
 .mobile-social {
   display: flex;
-  justify-content: space-evenly;
-  font-weight: 500;
-  font-size: 1.286em;
-  color: $brand-color;
-  list-style-type: none;
-  padding-left: 0;
+  align-items: center;
+  justify-content: space-around;
 
-  &--decoration {
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    padding: 0 10px;
-    &:first-child {
-      padding-left: 0;
-    }
-    &:last-child {
-      border: none;
-    }
+  &--svg {
+    width: 44px;
+    height: 44px;
   }
 }
 
-.menu-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 48px;
+@media screen and (min-width: 768px) {
+  .mobile__button {
+    top: 25px;
+    right: 25px;
+    font-size: 35px;
+  }
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #fff;
-  z-index: 999;
+  .mobile-social {
+    &--svg {
+      width: 55px;
+      height: 55px;
+    }
+  }
 
-  transform: translateX(1000%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-container.is-open {
-  transform: translateX(0);
+  .mobile-menu {
+    font-size: 2em;
+    &--list:not(:nth-child(1)) {
+      padding-top: 46px;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
