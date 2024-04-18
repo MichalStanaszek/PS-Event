@@ -24,11 +24,8 @@
   display: none;
 }
 
-//zostawiam zakomentowane do dyskusji z klientem
 @media screen and (min-width: 768px) {
   .header {
-    // justify-content: space-around;
-    // font-size: 24px;
     &__logo {
       width: 140px;
     }
@@ -37,24 +34,6 @@
   .header--scrolled .header__logo {
     width: 90px;
   }
-
-  // .page-navigation {
-  //   display: flex;
-  //   list-style-type: none;
-  //   line-height: 1.14rem;
-  //   &--transform {
-  //     padding: 10px;
-  //     transition: transform 0.5s ease;
-
-  //     &:hover {
-  //       transform: scale(1.05);
-  //       text-decoration: underline;
-  //     }
-  //   }
-  //   &__active {
-  //     text-decoration: underline;
-  //   }
-  // }
 }
 
 @media screen and (min-width: 1200px) {
