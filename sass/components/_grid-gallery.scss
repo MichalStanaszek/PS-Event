@@ -9,6 +9,11 @@
   --column-width: 220px;
 }
 
+.events.gg-box {
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 250px;
+}
+
 .gg-container *[data-theme="dark"] {
   --main-color: #ddd;
   --secondary-color: #eee;
@@ -37,6 +42,11 @@
 .gg-box img:hover {
   opacity: 0.98;
   transform: scale(1.02);
+}
+
+.events .gg-box img:hover {
+  transform: none;
+  cursor: auto;
 }
 
 #gg-screen {
@@ -129,7 +139,7 @@
 }
 
 @media (max-width: 450px) {
-  .gg-box {
+  .events .gg-box {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
 }
