@@ -9,6 +9,11 @@
   --column-width: 220px;
 }
 
+.events {
+  margin: 0 auto;
+  width: 70vw;
+}
+
 .events.gg-box {
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: 250px;
