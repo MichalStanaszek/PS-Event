@@ -1,13 +1,13 @@
 .about {
-  margin: 35px 35px 0px;
   &__header {
     text-align: center;
+    margin: 60px;
   }
   &--list {
     margin: 0px;
   }
   &__paragraph {
-    padding: 10px;
+    padding: 20px 10px 30px;
     font-size: 1.2em;
     line-height: 1.3em;
   }
@@ -21,6 +21,7 @@
     margin: 70px;
     &__header {
       font-size: 2em;
+      margin: 80px;
     }
     &__paragraph {
       font-size: 1.6em;
@@ -37,6 +38,9 @@
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 4px;
+    &__header {
+      margin: 100px;
+    }
     &__photo {
       max-width: 450px;
     }
